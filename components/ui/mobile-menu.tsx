@@ -74,7 +74,7 @@ export default function MobileMenu() {
           leaveTo="opacity-0"
         >
           <ul className="px-5 py-2 divide-y">
-            <li>
+            {/* <li>
               <Link
                 href="/aboutus"
                 className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
@@ -139,44 +139,44 @@ export default function MobileMenu() {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             <li>
               <Link
-                href="/mentors"
+                href="#"
                 className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Mentors
+                About Us
               </Link>
             </li>
             <li>
               <Link
-                href="/partners"
+                href="#programs"
                 className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Partners
+                Programs Offered
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="#faq"
+                className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                onClick={() => setMobileNavOpen(false)}
+              >
+                FAQ
               </Link>
             </li>
 
             <li>
               <Link
                 href="/contactus"
-                className="flex font-medium w-full text-gray-600 hover:text-gray-900 py-2 justify-center"
+                className="btn-sm text-white bg-blue-600 w-full my-2"
                 onClick={() => setMobileNavOpen(false)}
               >
-                Contact Us
-              </Link>
-            </li>
-
-            <li>
-              <Link
-                href="/register"
-                className="btn-sm text-white bg-gradient1 w-full my-2"
-                onClick={() => setMobileNavOpen(false)}
-              >
-                <span>Register</span>
+                <span>Book a Demo</span>
                 <svg
                   className="w-3 h-3 fill-current text-white shrink-0 ml-2 -mr-1"
                   viewBox="0 0 12 12"
