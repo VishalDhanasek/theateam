@@ -39,7 +39,7 @@ export default function Header1() {
           {/* Desktop navigation */}
           <nav className="hidden md:flex md:grow">
             <ul className={`flex grow justify-end flex-wrap items-center `}>
-            {/* <Dropdown1 children={<>
+              {/* <Dropdown1 children={<>
               <li>
                 <Link href="/aboutus" className="font-medium text-gray-600 hover:text-gray-900 px-5 py-3 flex items-center transition duration-150 ease-in-out ">Our Team</Link>
               </li>
@@ -82,19 +82,38 @@ export default function Header1() {
               </>}
               title={'Hackers'} /> */}
 
-
-             <li>
-                <Link href="#" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-800' : 'text-gray-600'}`}>About Us</Link>
+              <li>
+                <Link
+                  href="/aboutus"
+                  className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${
+                    !top ? "text-gray-800" : "text-gray-600"
+                  }`}
+                >
+                  About Us
+                </Link>
               </li>
 
               <li>
-                <Link href="#programs" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-800' : 'text-gray-600'}`}>Programs Offered</Link>
+                <Link
+                  href="#programs"
+                  className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${
+                    !top ? "text-gray-800" : "text-gray-600"
+                  }`}
+                >
+                  Programs Offered
+                </Link>
               </li>
 
               <li>
-                <Link href="#faq" className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${!top ? 'text-gray-800' : 'text-gray-600'}`}>FAQ</Link>
+                <Link
+                  href="#faq"
+                  className={`font-medium  px-5 py-3 flex items-center transition duration-150 ease-in-out ${
+                    !top ? "text-gray-800" : "text-gray-600"
+                  }`}
+                >
+                  FAQ
+                </Link>
               </li>
-
             </ul>
 
             {/* Desktop sign in links */}

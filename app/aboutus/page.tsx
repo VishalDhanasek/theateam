@@ -26,14 +26,14 @@ export default function AboutUs() {
                     <div className="w-full px-3 sm:px-4 xl:w-1/2">
                       <div className="py-3 sm:py-4">
                         <img
-                          src="https://res.cloudinary.com/duytedcdh/image/upload/v1705768627/sparkx_2024/tsjmwdnyf1k9uyvgbsoh.jpg"
+                          src="1.jpeg"
                           alt=""
                           className="w-full rounded-2xl"
                         />
                       </div>
                       <div className="py-3 sm:py-4">
                         <img
-                          src="./images/2.jpg"
+                          src="2.jpeg"
                           alt=""
                           className="w-full rounded-2xl "
                         />
@@ -42,14 +42,14 @@ export default function AboutUs() {
                     <div className="w-full px-3 sm:px-4 xl:w-1/2">
                       <div className="relative z-10 my-4">
                         <img
-                          src="./images/4.JPG"
+                          src="3.jpeg"
                           alt=""
                           className="w-full rounded-2xl "
                         />
                       </div>
                       <div className="py-3 sm:py-4">
                         <img
-                          src="./images/5.jpeg"
+                          src="4.jpeg"
                           alt=""
                           className="w-full rounded-2xl "
                         />
@@ -75,13 +75,18 @@ export default function AboutUs() {
                       Our Story
                     </h2>
                     <p className="mb-7 text-lg text-gray-600">
-                      SparkX 2024 is Tamil Nadu's largest inter-collegiate
-                      hackathon, hosting 5,000 students from across the state to
-                      innovate solutions in Manufacturing Revolution, Tech
-                      Titans Showcase, AgriTech, Cross-Sector Collaborations,
-                      and Future of Work on September 6 & 7 in Coimbatore.
+                      We are a passionate group of Al enthusiasts who have
+                      founded #the A Team Kids Academy dedicated to
+                      revolutionizing children's education. At our core, we
+                      believe that every child has unlimited potential waiting
+                      to be unlocked. We leverage Al as a powerful tool to
+                      provide a personalized, supportive, and data-driven
+                      learning environment. Our core program, which focuses on
+                      Al-based public speaking, is designed to assist kids in
+                      overcoming stage fright, improving their confidence, and
+                      enhancing their leadership and communication skills.
                     </p>
-                    <p className="mb-7 text-lg text-gray-600">
+                    {/* <p className="mb-7 text-lg text-gray-600">
                       Participants can benefit from expert guidance, access
                       cutting-edge cloud platforms and kits from sponsors, and
                       showcase their prototypes for a chance to win cash prizes,
@@ -99,69 +104,12 @@ export default function AboutUs() {
                       hackathon that draws the builders of tomorrow. Register to
                       join us now if you feel the spark and hunger to build
                       change using technology!
-                    </p>
+                    </p> */}
                   </div>
                 </div>
               </div>
             </div>
           </section>
-
-          {/* ====== Brands Section Start */}
-
-          <div className="container mx-auto -mb-[90px] -mt-[40px]">
-            <div className="pt-32 pb-12 md:pt-[60px]  content-center">
-              <div className="max-w-6xl mx-auto text-center mb-5">
-                <h2 className="h2 text-4xl">Organizers</h2>
-              </div>
-
-              {/* Items */}
-              <div className="max-w-sm md:max-w-4xl mx-auto grid gap-2 grid-cols-4 md:grid-cols-4">
-                {/* Item */}
-                <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img
-                    className="max-w-full fill-current text-gray-400"
-                    src="/startnet.png"
-                    width="144"
-                    height="24"
-                  ></img>
-                </div>
-
-                {/* Item */}
-                <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img
-                    className="max-w-full fill-current text-gray-400"
-                    src="/growbinar.png"
-                    width="194"
-                    height="24"
-                  ></img>
-                </div>
-
-                {/* Item */}
-                <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img
-                    className="max-w-full fill-current text-gray-400"
-                    src="/startuptn.png"
-                    width="194"
-                    height="24"
-                  ></img>
-                </div>
-
-                {/* Item */}
-                <div className="flex items-center justify-center py-2 col-span-2 md:col-auto">
-                  <img
-                    className="max-w-full fill-current text-gray-400"
-                    src="/dreamtn.png"
-                    width="114"
-                    height="14"
-                  ></img>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          {/* ====== Brands Section End */}
-
-          <Team />
         </div>
       </div>
     </section>
