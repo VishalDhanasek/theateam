@@ -26,23 +26,23 @@ import Faq from "@/components/faq";
 export default function Home() {
   const faqs = [
     {
-      title: "Question 1",
-      text: "The event features five themes – Manufacturing Revolution, Tech Titans showcase, AgriTech Revolution, Cross-Sector Collaborations and Services Innovation Hub. You can browse the specific problem statements and suggested ideas during the application process. ",
+      title: "What makes The A Team Academy different from other institutes?",
+      text: "At A Team Academy, we integrate AI-powered learning methods with traditional teaching. Our programs like AI Phonics, AI Abacus, AI Public Speaking, AI for Kids, and Vedic Maths are designed to make learning interactive, engaging, and future-ready. ",
       active: true,
     },
     {
-      title: "Question 2",
-      text: "Teams can build web/mobile apps, data visualisation dashboards, intelligent systems, IoT applications, or hardware prototypes. Ultimately, new solutions or extensions of existing open-source projects are allowed during the hackathon.",
+      title: "Is AI-based learning suitable for young children?",
+      text: "Yes! Our AI tools are carefully designed for child-friendly learning. They provide personalized practice, instant feedback, and fun activities that make learning simple and enjoyable for every child.",
       active: false,
     },
     {
-      title: "Question 3",
-      text: "Teams upload a video recording of their product demo and slides to the portal. The presentation and Q&A occur virtually over video conference with judging panels. ",
+      title: "Are the classes online, offline, or hybrid?",
+      text: "We offer both offline and online learning options. Parents can choose what suits their child best. For offline, classes are conducted at our academy center; for online, interactive sessions are conducted live with teacher support.",
       active: false,
     },
     {
-      title: "Question 4",
-      text: "The top 3 teams in each theme win cash prizes worth Rs.50,000, Rs.25,000 and Rs.15,000, respectively. Specialised sponsor prizes for gear, grants, and acceleration opportunities also exist.",
+      title: "What age groups do you cater to?",
+      text: "We have customized programs for children starting from age 4 up to age 14. Each course is designed to suit the child’s learning capacity at that age.",
       active: false,
     },
   ];
