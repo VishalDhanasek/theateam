@@ -26,14 +26,14 @@ export default function AboutUs() {
                     <div className="w-full px-3 sm:px-4 xl:w-1/2">
                       <div className="py-3 sm:py-4">
                         <img
-                          src="1.jpeg"
+                          src="4.jpeg"
                           alt=""
                           className="w-full rounded-2xl"
                         />
                       </div>
                       <div className="py-3 sm:py-4">
                         <img
-                          src="2.jpeg"
+                          src="5.jpeg"
                           alt=""
                           className="w-full rounded-2xl "
                         />
@@ -49,7 +49,7 @@ export default function AboutUs() {
                       </div>
                       <div className="py-3 sm:py-4">
                         <img
-                          src="4.jpeg"
+                          src="1.jpeg"
                           alt=""
                           className="w-full rounded-2xl "
                         />

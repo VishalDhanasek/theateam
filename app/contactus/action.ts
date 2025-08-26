@@ -1,8 +1,6 @@
 // "use server";
 
-
 // import { sql } from "@vercel/postgres";
-
 
 // export async  function  submitContactUs(name: string, email:string, message:string) {
 //   try {
@@ -18,13 +16,21 @@
 // }
 "use server";
 
-export async function submitContactUs(name: string, email: string, message: string) {
+export async function submitContactUs(
+  name: string,
+  email: string,
+  number: string,
+  message: string
+) {
   try {
+    const payload = { name, email, number, message };
+    console.log("📤 Sending to Google Sheets:", payload);
     const response = await fetch(process.env.GOOGLE_APPS_SCRIPT_URL!, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ name, email, message }),
+      body: JSON.stringify({ name, email, number, message }),
     });
+    console.log("response",response);
 
     if (!response.ok) throw new Error("Failed to send data to Google Sheets");
 
@@ -37,4 +43,3 @@ export async function submitContactUs(name: string, email: string, message: stri
     return { success: false, error };
   }
 }
-
